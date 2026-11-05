@@ -1,0 +1,9 @@
+Resilex bundles portions of Unicode Character Database 15.0.0:
+
+- resilex_unicode_data/PropertyValueAliases.txt
+- resilex_unicode_data/Scripts.txt
+- resilex_unicode_data/ScriptExtensions.txt
+
+These files are derived from Unicode, Inc.'s Unicode 15.0.0 UCD files at
+https://www.unicode.org/Public/15.0.0/ucd/. Copyright © 2022 Unicode, Inc.
+The Unicode data is subject to the Unicode License V3 in LICENSE-UNICODE.txt.

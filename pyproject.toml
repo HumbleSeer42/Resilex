@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resilex"
+version = "1.0.0"
+license = "MIT"
+description = "An educational Python regular-expression engine using Thompson NFAs"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+resilex-visualize = "resilex.visualize:main"
+resilex-benchmark = "benchmarks.benchmark:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["resilex*", "benchmarks*"]
+
+[tool.setuptools.package-data]
+resilex = ["resilex_unicode_data/*.txt", "*.pyi"]
+
+[tool.setuptools.data-files]
+"share/resilex" = ["LICENSE-UNICODE.txt", "NOTICE"]

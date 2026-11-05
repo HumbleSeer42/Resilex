@@ -1,0 +1,3 @@
+include LICENSE-UNICODE.txt
+include NOTICE
+recursive-include src/resilex/resilex_unicode_data *.txt
