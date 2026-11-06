@@ -45,6 +45,14 @@ if match:
 print(pattern.explain("item-42"))
 ```
 
+## 200k Tests
+
+NEEDS `hypothesis` TO WORK!
+
+```python
+python3 tests/twohundredktests.py <number of workers>
+```
+
 ---
 
 ## At a glance
